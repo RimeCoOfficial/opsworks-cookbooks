@@ -1,0 +1,6 @@
+name              "cronjobs"
+description       "Sets or updates using the cron resource and the custom JSON."
+maintainer        "suvozit"
+maintainer_email  "suvozit@live.com"
+license           "MIT"
+version           "1.0.0"
