@@ -6,7 +6,12 @@
 # Create custom cron jobs using configuration values in the Custom JSON
 #
 
-cron "sync_service oauth task" do
+cron "echo hi" do
   minute "*/1"
   command "%Q{ echo 'hi' >> /home/ubuntu/test.txt }"
+end
+
+cron "echo hi" do
+  minute "*/1"
+  command "cd /srv/www/log_pixel/current && php index.php task sync_url extract   60"
 end
