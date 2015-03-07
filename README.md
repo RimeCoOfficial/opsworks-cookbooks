@@ -1,2 +1,2 @@
-log-pixel-opsworks-cokbook
+log-pixel-opsworks-cookbook
 ==========================
