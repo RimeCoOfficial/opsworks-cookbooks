@@ -37,8 +37,7 @@ Default will create multiple cronjobs based on the following configuration value
   "custom_env": {
     "cron_jobs": [  
       {
-        // Send an email every sunday at 8:10
-        "name"    : "send_email_sunday_8",
+        "name"    : "Send an email every sunday at 8:10",
         "minute"  : "10", 
         "hour"    : "8", 
         "day"     : "*",
@@ -47,9 +46,7 @@ Default will create multiple cronjobs based on the following configuration value
         "command" : "cd /srv/www/staging_site/current && php .lib/mailing.php" 
       },
       {
-        // Run at 8:00 PM every weekday Monday through Friday ONLY in November. 
-        Notice there is no day
-        "name"    : "run_at_20h_nov", 
+        "name"    : "Run at 8:00 PM every weekday Monday through Friday ONLY in November.", 
         "minute"  : "0", 
         "hour"    : "20",
         "day"     : "*",
@@ -58,8 +55,7 @@ Default will create multiple cronjobs based on the following configuration value
         "command" : "cd /srv/www/staging_site/current && php app/console command:start:jobs" 
       },
       {
-        // Run Every 12 Hours - 1AM and 1PM
-        "name"    : "run_every_12h",
+        "name"    : "Run Every 12 Hours - 1AM and 1PM",
         "minute"  : "*",
         "hour"    : "1-13",
         "day"     : "*",
@@ -68,8 +64,7 @@ Default will create multiple cronjobs based on the following configuration value
         "command" : "cd /srv/www/production_site/current && php app/console hello:world" 
       },
       {
-        // Run every 15 minutes
-        "name"    : "do_something_stupid_every_15m",
+        "name"    : "Run every 15 minutes",
         "minute"  : "*/15", 
         "hour"    : "*",
         "day"     : "*",
