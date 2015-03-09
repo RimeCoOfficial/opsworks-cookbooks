@@ -1,2 +1,2 @@
-log-pixel-opsworks-cookbook
-==========================
+AWS OpsWorks Cookbooks.
+=======================
