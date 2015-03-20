@@ -2,7 +2,7 @@
 # export CI_ENV="production" or
 # setenv CI_ENV="production"
 
-bash "set_CI_ENV" do
+bash "set CI_ENV" do
   code <<-EOH
     export CI_ENV="production"
   EOH
