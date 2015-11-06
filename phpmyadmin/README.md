@@ -47,10 +47,10 @@ Attributesでは構成するサーバーのポート番号を指定できる。
 
 #### phpmyadmin::nginx
 
-``` json
+```json
 {
   "phpmyadmin": {
-    "db_hostname": "url.to.rds.com"
+    "db_hostname": "mydbinstance.qwhsdahdjauw.us-west-2.rds.amazonaws.com"
   }
 }
 ```
