@@ -1,6 +1,6 @@
 # phpmyadmin
 
-###### Forked from: https://github.com/takayukii/cookbooks
+###### Forked from: https://github.com/takayukii/cookbooks/tree/master/phpmyadmin
 
 phpMyAdminを導入する。
 
@@ -17,31 +17,10 @@ OpsWorks Layers: Node.js App Server
 
 Attributesでは構成するサーバーのポート番号を指定できる。
 
-<table>
 
-  <tr>
-
-``` 
-<th>キー</th>
-<th>型</th>
-<th>説明</th>
-<th>初期値</th>
-```
-
-  </tr>
-
-  <tr>
-
-``` 
-<td><tt>["phpmyadmin"]["db_hostname"]</tt></td>
-<td>文字列</td>
-<td>MySQLのホスト名</td>
-<td><tt>127.0.0.1</tt></td>
-```
-
-  </tr>
-
-</table>
+キー | 型  | 説明 | 初期値
+---- | --- | ---  |---
+`["phpmyadmin"]["db_hostname"]` | 文字列 | MySQLのホスト名 | `127.0.0.1`
 
 ## Usage
 
