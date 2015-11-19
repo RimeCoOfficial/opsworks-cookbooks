@@ -1,5 +1,5 @@
 directory "/tmp/aws-cache" do
-  mode 1777
+  mode 777
   owner 'root'
   group 'root'
   action :create
